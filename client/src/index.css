@@ -3,13 +3,13 @@
 
 * {
   font-family: "Outfit", sans-serif;
-  background-color: black;
+  /* background-color: black; */
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-:root {
+@theme {
   --color-primary: #5044E5;
 }
