@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Bloglist from '../components/Bloglist'
 import BlogCard from '../components/BlogCard'
 import Newsletter from '../components/Newsletter'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Bloglist />
       <BlogCard />
       <Newsletter />
+      <Footer />
     </div>
   )
 }
