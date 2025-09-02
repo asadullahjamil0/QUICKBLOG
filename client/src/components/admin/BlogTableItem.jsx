@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets';
 
 const BlogTableItem = ({ blog, fetchBlogs, index }) => {
 
-    const [title, createdAt] = blog;
+    const { title, createdAt } = blog;
     const BlogDate = new Date(createdAt)
     return (
         <tr className='border-y bg-gray-300 '>
